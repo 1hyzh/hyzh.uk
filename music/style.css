@@ -1,5 +1,5 @@
 body{
-    background: url("./bg.png");
+    background: url("../bg.png");
     margin: 0;
 }
 .container{
@@ -50,22 +50,20 @@ body{
     transform: translateY(-2px);
 }
 .content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row;
+    color: aliceblue;
     background-color: #060612;
     padding: 20px;
     border-color: blue;
     border-width: 2px;
     border-style: solid;
     border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-    gap: 200px;
 }
-.txt{
-    color: aliceblue;
-}
-.mybtnarea{
-    color: aliceblue;
-}
+
+
 footer{
     color: aliceblue;
     text-align: center;
@@ -76,4 +74,19 @@ footer{
   width: 100%;
   text-align: center;
   padding: 1rem;
+}
+.music a{
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: aliceblue;
+    padding: 2px 5px;
+    margin: 2px;
+    
+}
+.music a:hover{
+    color: rgb(65, 65, 221);
+    filter: drop-shadow(0 0 5px rgb(65, 65, 221));
+    padding: 5px 7px;
 }
