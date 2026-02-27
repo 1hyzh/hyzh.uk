@@ -1,6 +1,7 @@
 body{
     background: url("./bg.png");
     margin: 0;
+    padding-top: 40px;
 }
 .container{
     background-color: #060612;
@@ -18,7 +19,8 @@ body{
     font-weight: bold;
     margin-bottom: 20px;
     background-color: #060612;
-    color: aliceblue;
+    background-image: url(/images/titles.png);
+    color: #c0c0c0;
     text-align: center;
     padding: 2px;
     border-color: blue;
@@ -51,20 +53,32 @@ body{
 }
 .content{
     background-color: #060612;
-    padding: 20px;
+    padding: 15px;
     border-color: blue;
     border-width: 2px;
     border-style: solid;
     border-radius: 5px;
     display: flex;
     flex-direction: row;
-    gap: 200px;
+    gap: 15px;
 }
 .txt{
     color: aliceblue;
 }
 .mybtnarea{
-    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    color: #c0c0c0;
+    padding: 40px;
+    background-image: url(/images/button.png);
+    background-size:cover;
+    align-items: center;
+}
+.mybtnarea button {
+    padding: 5px;
+}
+.mybtnarea textarea{
+    height: 15px;
 }
 footer{
     color: aliceblue;

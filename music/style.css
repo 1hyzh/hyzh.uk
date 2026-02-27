@@ -1,6 +1,7 @@
 body{
     background: url("../bg.png");
     margin: 0;
+    padding-top: 40px;
 }
 .container{
     background-color: #060612;
@@ -17,8 +18,8 @@ body{
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 20px;
-    background-color: #060612;
-    color: aliceblue;
+    background-image: url(../images/titles-music.png);
+    color: #c0c0c0;
     text-align: center;
     padding: 2px;
     border-color: blue;
